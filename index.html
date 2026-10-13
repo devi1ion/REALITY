@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<header>
+     <button id="reality-home" class="logo">REALITY</button>
+</header>
+<body>
+
+<main>
+    <section id="textbox">
+        <h2 class="scenario-title" id="ScenarioTitle">Begining</h2>
+        <p class="scenario-text" id="ScenarioText">Click any button to start</p>
+    </section>
+
+    <div class="buttons">
+        <button data-index="0">button</button>
+        <button data-index="1">button2</button>
+        <button data-index="2">button3</button>
+    </div>
+
+</main>
+
+    <footer></footer>
+
+  <div class="progress-bar" id="progress-bar">
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+    <span class="progress-dot"></span>
+</div>
+
+  <div class="balance-display">
+    <span id="balance-change" class="balance-change"></span>
+    Balance: <span id="moneyamount"></span>
+  </div>
+
+      <div id="end-overlay" class="overlay hidden">
+  <div class="overlay-card">
+      <h1 id="end-title">Game Over</h1>
+      <div class="end-stat"><span>Final balance</span><strong id="end-balance">$0</strong></div>
+      <div class="end-grade" id="end-grade">SS</div>
+      <p id="end-assess"></p>
+      <button id="restart-btn" class="primary-btn">Play Again</button>
+    </div>
+  </div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
